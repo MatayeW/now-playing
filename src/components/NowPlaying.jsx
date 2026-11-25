@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 
 const API_KEY = import.meta.env.VITE_LASTFM_KEY;
-const USERNAME = "your-lastfm-username";
+const USERNAME = "awsumnes298";
 
 function NowPlaying() {
   const [track, setTrack] = useState(null);
